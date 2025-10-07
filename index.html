@@ -1,0 +1,138 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Ashok Chandrapal — Portfolio</title>
+  <meta name="description" content="Ashok Chandrapal — Full-Stack Developer (Laravel, Yii2, Flutter, AI integrations)" />
+  <style>
+    :root{--bg:#0f1724;--card:#0b1220;--accent:#06b6d4;--muted:#94a3b8;--glass: rgba(255,255,255,0.03)}
+    *{box-sizing:border-box}
+    body{margin:0;font-family:Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial;background:linear-gradient(180deg,#071024 0%, #071a2a 100%);color:#e6eef6;line-height:1.5}
+    .container{max-width:1100px;margin:32px auto;padding:24px}
+    header{display:flex;align-items:center;gap:16px}
+    .avatar{width:96px;height:96px;border-radius:14px;background:linear-gradient(135deg,var(--accent),#7c3aed);display:flex;align-items:center;justify-content:center;font-weight:700;font-size:28px;color:#021627}
+    h1{margin:0;font-size:28px}
+    p.lead{margin:6px 0;color:var(--muted)}
+    .card{background:var(--card);padding:20px;border-radius:14px;margin-top:20px;box-shadow:0 6px 30px rgba(2,6,23,0.6)}
+    .grid{display:grid;grid-template-columns:1fr 320px;gap:20px}
+    @media (max-width:900px){.grid{grid-template-columns:1fr}.avatar{width:80px;height:80px}}
+    .skills{display:flex;flex-wrap:wrap;gap:8px}
+    .skill{background:var(--glass);padding:8px 10px;border-radius:999px;font-size:13px;color:var(--muted)}
+    .projects{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+    .project{background:linear-gradient(180deg, rgba(255,255,255,0.02), rgba(255,255,255,0.01));padding:12px;border-radius:8px}
+    .btn{display:inline-block;padding:10px 14px;border-radius:10px;background:linear-gradient(90deg,var(--accent),#7c3aed);color:#021627;font-weight:600;text-decoration:none}
+    footer{margin-top:26px;color:var(--muted);font-size:14px;text-align:center}
+    .meta{font-size:13px;color:var(--muted)}
+    .contact-list{list-style:none;padding:0;margin:6px 0}
+    .contact-list li{margin:6px 0}
+    a.link{color:var(--accent);text-decoration:none}
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <div class="avatar">AC</div>
+      <div>
+        <h1>Ashok Chandrapal</h1>
+        <p class="lead">Passionate Full‑Stack Developer — Laravel, Yii2, CodeIgniter, Flutter, AI integrations</p>
+        <div class="meta">Ahmedabad, Gujarat, India • developer7039@gmail.com • <a class="link" href="https://ashokchandrapal.com" target="_blank" rel="noopener">ashokchandrapal.com</a></div>
+      </div>
+    </header>
+
+    <section class="card">
+      <h2>About</h2>
+      <p>Full‑Stack developer with 12+ years of experience building scalable web & mobile apps. I convert product ideas into working MVPs quickly, ship payment integrations, design APIs, and integrate AI features like ChatGPT-based automation.</p>
+      <div style="margin-top:12px">
+        <strong>Top Skills</strong>
+        <div class="skills" style="margin-top:8px">
+          <span class="skill">Laravel</span>
+          <span class="skill">Yii2</span>
+          <span class="skill">CodeIgniter</span>
+          <span class="skill">PHP</span>
+          <span class="skill">Flutter</span>
+          <span class="skill">Firebase</span>
+          <span class="skill">MySQL</span>
+          <span class="skill">Docker</span>
+          <span class="skill">AI / ChatGPT</span>
+          <span class="skill">Payments (Stripe, Razorpay)</span>
+        </div>
+      </div>
+    </section>
+
+    <div class="grid">
+      <main>
+        <section class="card">
+          <h2>Featured Projects</h2>
+          <div class="projects" style="margin-top:12px">
+            <article class="project">
+              <h3>Razorpay Integration (Laravel)</h3>
+              <p class="meta">Laravel package / integration for Razorpay (Indian payments).</p>
+              <a class="btn" href="https://github.com/developer-ashok/razorpay-integration-laravel" target="_blank" rel="noopener">View Repo</a>
+            </article>
+
+            <article class="project">
+              <h3>Stripe Integration (Laravel)</h3>
+              <p class="meta">Payment gateway integration for Laravel projects using Stripe.</p>
+              <a class="btn" href="https://github.com/developer-ashok/stripe-integration-laravel" target="_blank" rel="noopener">View Repo</a>
+            </article>
+
+            <article class="project">
+              <h3>SkillSwap (Flutter)</h3>
+              <p class="meta">Cross-platform mobile app for skill exchange between users.</p>
+              <a class="btn" href="https://github.com/developer-ashok/SkillSwap" target="_blank" rel="noopener">View Repo</a>
+            </article>
+
+            <article class="project">
+              <h3>Laravel Secret Link</h3>
+              <p class="meta">One-time secret link generator with expiry and optional password protection.</p>
+              <a class="btn" href="https://github.com/developer-ashok/laravel-secret-link" target="_blank" rel="noopener">View Repo</a>
+            </article>
+
+          </div>
+        </section>
+
+        <section class="card" style="margin-top:16px">
+          <h2>Work & Services</h2>
+          <ul>
+            <li>Full‑stack web & mobile development (APIs, frontend, backend)</li>
+            <li>Payment gateway integrations (Stripe, Razorpay, Authorize.net, PEI)</li>
+            <li>AI integrations (ChatGPT/Gemini powered features)</li>
+            <li>Product & SOW research, MVP design and delivery</li>
+            <li>Cross-platform Flutter apps and Firebase backends</li>
+          </ul>
+        </section>
+
+      </main>
+
+      <aside>
+        <div class="card">
+          <h3>Contact</h3>
+          <ul class="contact-list">
+            <li>Email: <a class="link" href="mailto:developer7039@gmail.com">developer7039@gmail.com</a></li>
+            <li>Website: <a class="link" href="https://ashokchandrapal.com" target="_blank">ashokchandrapal.com</a></li>
+            <li>GitHub: <a class="link" href="https://github.com/developer-ashok" target="_blank">github.com/developer-ashok</a></li>
+            <li>LinkedIn: <a class="link" href="https://www.linkedin.com/in/ashok-chandrapal/" target="_blank">linkedin.com/in/ashok-chandrapal</a></li>
+            <li>X: <a class="link" href="https://x.com/ashok7039" target="_blank">@ashok7039</a></li>
+          </ul>
+        </div>
+
+        <div class="card" style="margin-top:12px">
+          <h3>Quick Facts</h3>
+          <p class="meta">12+ years experience · Payment integrations · Flutter & Laravel hybrid systems · AI integrations</p>
+        </div>
+
+        <div class="card" style="margin-top:12px;text-align:center">
+          <h3>Hire / Collaborate</h3>
+          <p class="meta">Available for freelance & collaboration projects. I often turn client ideas into MVPs within days.</p>
+          <a class="btn" href="mailto:developer7039@gmail.com">Get in touch</a>
+        </div>
+      </aside>
+    </div>
+
+    <footer>
+      <div class="meta">© Ashok Chandrapal • Built with ❤️ • GitHub: <a class="link" href="https://github.com/developer-ashok" target="_blank">developer-ashok</a></div>
+    </footer>
+  </div>
+</body>
+</html>
